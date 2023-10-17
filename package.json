@@ -1,5 +1,5 @@
 {
-  "name": "osrm-isochrone",
+  "name": "@ehealthafrica/osrm-isochrone",
   "version": "3.0.0",
   "description": "creates drivetime isochrones from osrm routes",
   "osrm_release" : "5.4",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mapbox/osrm-isochrone.git"
+    "url": "https://github.com/ehealthafrica/osrm-isochrone.git"
   },
   "keywords": [
     "drivetime",

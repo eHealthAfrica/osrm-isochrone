@@ -5,7 +5,7 @@ var isolines = require('@turf/isolines'),
     point = require('@turf/helpers').point,
     distance = require('@turf/distance'),
     featureCollection = require('@turf/helpers').featureCollection,
-    OSRM = require('osrm');
+    OSRM = require('@project-osrm/osrm');
 
 module.exports = function (center, time, options, done) {
     if (!options) throw 'options is mandatory';
